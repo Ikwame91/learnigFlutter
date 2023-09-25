@@ -126,8 +126,8 @@ class _ChatScreenState extends State<ChatScreen> {
                         topRight: Radius.circular(30))),
                 child: ClipRRect(
                   borderRadius: BorderRadius.only(
-                      topLeft: Radius.circular(30),
-                      topRight: Radius.circular(30)),
+                      topLeft: Radius.circular(32),
+                      topRight: Radius.circular(32)),
                   child: ListView.builder(
                       reverse: true,
                       itemCount: messages.length,
