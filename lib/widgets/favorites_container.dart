@@ -29,8 +29,8 @@ class FavoriteContacts extends StatelessWidget {
               ],
             ),
           ),
-          Container(
-            height: 120,
+          SizedBox(
+            height: 140,
             child: ListView.builder(
               padding: EdgeInsets.only(left: 10),
               scrollDirection: Axis.horizontal,
